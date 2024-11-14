@@ -45,15 +45,22 @@ h1 {
   margin: 10px 0;
   color: #555;
 }
-.buy-button {
-  background-color: #de2901;
+.buy-button,
+.trailer-button {
+  background-color: #ff5733;
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  text-decoration: none;
   font-size: 1em;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+.buy-button:hover,
+.trailer-button:hover {
+  background-color: #ff3311;
 }
 .buy-button:hover {
   background-color: #ff3311;
