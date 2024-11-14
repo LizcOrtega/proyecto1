@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+.movie {
+  display: flex;
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.movie img {
+  width: 150px;
+  height: 200px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.movie-details {
+  flex: 1;
+}
+.movie-title {
+  font-size: 1.5em;
+  color: #333;
+  margin: 0;
+}
+.movie-description {
+  font-size: 1em;
+  color: #666;
+  margin: 10px 0;
+}
+.showtimes {
+  font-size: 1em;
+  margin: 10px 0;
+  color: #555;
+}
+.buy-button {
+  background-color: #de2901;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1em;
+}
+.buy-button:hover {
+  background-color: #ff3311;
+}
