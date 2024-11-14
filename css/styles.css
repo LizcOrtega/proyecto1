@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f3f3f3;
+  background-color: #100c29;
   margin: 0;
   padding: 0;
 }
@@ -10,12 +10,12 @@ body {
   padding: 20px;
 }
 h1 {
-  text-align: center;
-  color: #333;
+  text-align: left;
+  color: #ffffff;
 }
 .movie {
   display: flex;
-  background-color: #fff;
+  background-color: #bed9ff;
   margin: 20px 0;
   padding: 20px;
   border-radius: 8px;
